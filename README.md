@@ -1,4 +1,4 @@
-# SAS base 9.4 <img src="featured.png" align="right" height="130"  alt="" />
+# SAS base 9.4 <img src="sas.png" align="right" height="130"  alt="" />
 
 
 ### **Create a word document with SAS**
