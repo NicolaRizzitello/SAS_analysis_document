@@ -1,5 +1,5 @@
 
-proc import file="C:/Users/nrizzitello/Downloads/dati_sulla_raccolta_differenziata-2022.csv"
+proc import file="dati_sulla_raccolta_differenziata-2022.csv"
 	 dbms=csv 
 	 out=mydata
 	 replace;
@@ -34,12 +34,12 @@ set trans_tonn_diff;
 run;
 
 options orientation=landscape;
-options papersize=(8.3in 11.7in); /* A3 - va specificato con in pollici */
+options papersize=(8.3in 11.7in); /* A4 */
 
 
 
 
-%let percorso = C:\Users\nrizzitello\Desktop\;
+%let percorso = path\;
 %let titolo = DIFFERENZIATA_SICILIA;
 %let today = %sysfunc(today(),YYMMDD10.);
 %let Time = %sysfunc(time(),time8.0); 
@@ -47,8 +47,7 @@ options papersize=(8.3in 11.7in); /* A3 - va specificato con in pollici */
 %let Time_MM = %scan(&Time.,2,:);
 
 
-/* https://documentation.sas.com/doc/en/pgmsascdc/v_055/uprint/p10mxeb6wxqfjgn1p5u0w4t8qf20.htm */
-/*ods word file='\\ismett-fscrypt\IRRB-15-17 - MARTUCCI, Gennaro - PROTECMO\CondivisioneDB\piastrine_2024-10-08.docx'*/
+
 ods word file="&percorso&titolo - &today-&Time_HH&Time_MM..docx"
 		 author='USDM'
 		 style=Word 
