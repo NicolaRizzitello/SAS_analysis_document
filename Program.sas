@@ -49,7 +49,7 @@ options papersize=(8.3in 11.7in); /* A4 */
 
 
 ods word file="&percorso&titolo - &today-&Time_HH&Time_MM..docx"
-		 author='USDM'
+		 author='author'
 		 style=Word 
 		 startpage=yes 
 		 image_dpi=300 
