@@ -29,8 +29,6 @@ These are the columns:
 
 Other columns refer all kind of trash.
 
-### Conclusion
-
 Clone this repo and render your document.
 
 # **<p align=center>ENJOY!**
