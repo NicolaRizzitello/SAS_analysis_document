@@ -10,7 +10,7 @@
 
 ### About the Dataset
 
-This dataset has been downloaded from thi link https://www.dati.gov.it/view-dataset/dataset?id=e76e1720-5f13-489d-b698-42b31e687ada  
+This dataset has been downloaded from this link https://www.dati.gov.it/view-dataset/dataset?id=e76e1720-5f13-489d-b698-42b31e687ada  
 
 It's a collect of data about trash in each town in Sicily in 2022.
 
